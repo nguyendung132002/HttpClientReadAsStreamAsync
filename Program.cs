@@ -34,5 +34,5 @@ Console.WriteLine(result
     ? $"✅ Đã tải thành công về: {savePath}"
     : "❌ Tải file thất bại.");
 
-// Dừng app (nếu bạn chạy console)
+// Dừng app (nếu bạn chạy console) Dừng ứng dụng và giải phóng tài nguyên nếu có
 await host.StopAsync();
